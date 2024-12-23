@@ -1,0 +1,22 @@
+{
+  "name": "backend-iii",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/app.js", 
+    "dev": "node --watch ./src/app.js" 
+  },
+  "keywords": [],
+  "author": "Magaly Gallado",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.1",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0"
+  }
+}
